@@ -2,137 +2,150 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-  html {
-    /* Hide page until fully loaded */
-    display: none;
-  }
+html {
+  /* Hide page until fully loaded */
+  display: none;
+}
 
-  body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-  }
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
 
 
-  /* HEADER
+/* HEADER
   ---------------------------------------- */
 
-  
-  /* CUSTOMIZE THE JUMBROTRON
+/* CUSTOMIZE THE JUMBROTRON
   -------------------------------------------------- */
- 
-  .jumbotron-container {
-    padding: 2em 2em 2em 2em !important;
-  }
-  
-  
-  /* MIDDLE CONTENT
+
+.jumbotron-container {
+  padding: 2em 2em 2em 2em !important;
+}
+
+.btn-primary,
+.btn-primary:visited {
+    background-color: #f4511e !important;
+    border-color: #f4511e !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #f6673c !important;
+    border-color: #f6673c !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* MIDDLE CONTENT
   -------------------------------------------------- */
-  
-  .middle .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .middle h2 {
-    font-weight: 400;
-    padding-bottom: 10px;
-  }
-  .middle .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
 
-  .big-row {
-    padding: 8em 0em 8em 0em;
-  }
+.middle .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.middle h2 {
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.middle .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
 
-  .medium-row {
-    padding: 1em 0em 1em 0em;
-  }
+.big-row {
+  padding: 8em 0em 8em 0em;
+}
 
-  .raised {
-    position: relative; 
-    top: -5px;
-  }
+.medium-row {
+  padding: 1em 0em 1em 0em;
+}
 
-  .card-text {
-    text-decoration: underline;
-    text-align: center;
-    font-size: 24px;
-  }
-  
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
-  
-  /* Thin out the marketing headings */
+.raised {
+  position: relative;
+  top: -5px;
+}
+
+.card-text {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 24px;
+}
+
+.png-shadow {
+  -webkit-filter: drop-shadow(0 .5rem 1rem rgba(0,0,0,.5));
+  filter: drop-shadow(0 .5rem 1rem rgba(0,0,0,.5));
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+.heading {
+  padding: 1em 0em 1em 0em;
+}
+
+/* CV
+  --------------------------- */
+.cv-top-header h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+}
+
+.cv-section {
+  padding-top: 40px;
+}
+
+.cv-section h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cv-section h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.cv-section p {
+  margin-bottom: 0px;
+}
+
+/* FOOTER
+  --------------------------- */
+
+#footer svg {
+  color: #5a5a5a;
+  font-size: 24px;
+}
+
+#footer p {
+  vertical-align: middle;
+}
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
   .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
+    font-size: 50px;
   }
+}
 
-  .heading {
-    padding: 1em 0em 1em 0em;
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
   }
-
-
-  /* CV
-  --------------------------- */
-  .cv-top-header h2 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    padding-bottom: 0px;    
-  }
-
-  .cv-section {
-    padding-top: 40px;
-  }
-
-  .cv-section h2 {
-    font-size: 16px;
-    font-weight: bold;  
-  }
-
-  .cv-section h3 {
-    font-size: 16px;
-    font-weight: bold;
-     margin-bottom: 0px;
-  }
-
-  .cv-section p {
-    margin-bottom: 0px;
-  }
-  
-
-    /* FOOTER
-  --------------------------- */
-
-  #footer svg {
-    color: #5a5a5a;
-    font-size: 24px;
-  }
-
-  #footer p {
-    vertical-align: middle;
-  }
-
-
-
-  
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
-  
-  @media (min-width: 40em) {
-    /* Bump up size of carousel content */  
-    .featurette-heading {
-      font-size: 50px;
-    }
-  }
-  
-  @media (min-width: 62em) {
-    .featurette-heading {
-      margin-top: 7rem;
-    }
-  }
+}
