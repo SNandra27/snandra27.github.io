@@ -10,57 +10,148 @@ html {
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #000000;
+  font-size: 1.1rem;
 }
 
 
 /* HEADER
   ---------------------------------------- */
 
+
+
+  .navbar-brand {
+    display:inline-block;
+    padding-top:.3125rem;
+    padding-bottom:.3125rem;
+    margin-right:1rem;
+    font-size:2.0rem;
+    line-height:inherit;
+    white-space:nowrap;
+    color:#ff6600 !important;
+    font-weight:500;
+  } 
+
+  .navbar-brand:hover{
+    color:#f6673c !important;
+    font-weight:500;
+  }
+
+  .nav-link
+  {
+    color:#000000 !important;
+    font-weight:500;
+  } 
+
+  .nav-link:hover
+  {
+    color:#ff6600 !important;
+    font-weight:500;
+  }     
+
 /* CUSTOMIZE THE JUMBROTRON
   -------------------------------------------------- */
 
 .jumbotron-container {
-  padding: 2em 2em 2em 2em !important;
+  padding: 1.5em 0em 0em 0em !important;
+}
+
+.jumbotron{
+  padding:4rem 2rem
+}
+
+
+.btn{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.btn-block{
+  width:50%;
+  margin-top:10px;
 }
 
 .btn-primary,
 .btn-primary:visited {
-    background-color: #f4511e !important;
-    border-color: #f4511e !important;
+    background-color: #ff6600 !important;
+    border-color: #ff6600 !important;
 }
 
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-    background-color: #f6673c !important;
-    border-color: #f6673c !important;
+    background-color: #DC7633 !important;
+    border-color: #DC7633 !important;
     outline: none !important;
     box-shadow: none !important;
 }
 
 /* MIDDLE CONTENT
   -------------------------------------------------- */
+.row {
+  margin-right: 22px;
+  margin-left: 22px;
+}
+
+.col-md-1{
+  max-width:0.333333%;
+}
+
+.col-md-5{
+  margin-left:70px;
+}
+
+.col-md-6{
+  max-width:40%;
+}
 
 .middle .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 .middle h2 {
-  font-weight: 400;
-  padding-bottom: 10px;
+  font-weight: 500;
+  /* padding-bottom: 10px; */
 }
 .middle .col-lg-4 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
 
+p
+{
+  font-weight:400;
+}
+
+a{
+  color:#ffffff;
+  text-decoration:none;
+  background-color:transparent;
+  font-weight:400;
+}
+
+.lead{
+  font-size:1.1rem;
+}
+
+a:hover{
+  color:#ff6600;
+  text-decoration:underline;
+  background-color:transparent;
+  font-weight:400;
+}
+
+
 .big-row {
   padding: 8em 0em 8em 0em;
 }
 
 .medium-row {
-  padding: 1em 0em 1em 0em;
+  padding: 0em 0em 1em 0em;
+}
+
+.mb-5,.my-5{
+  margin-bottom:2rem!important
 }
 
 .raised {
@@ -80,7 +171,7 @@ body {
 }
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
