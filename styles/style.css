@@ -21,10 +21,14 @@ p{
 /* HEADER
   ---------------------------------------- */
 
+
   .navbar-brand {
     color:#ff6600 !important;
-    font-size:2.1rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing:.17em;
+    font-weight: normal;
+    text-align: center;
   } 
 
     .navbar-brand:hover{
@@ -35,7 +39,7 @@ p{
 
   .nav-link
   {
-    color:#000000 !important;
+    color:#877773 !important;
     font-weight:500;
     font-size:1.1rem;
   } 
@@ -91,10 +95,10 @@ p{
   }
 
 
-/* .container, .container-md, .container-sm, .container-xl
+.container, .container-md, .container-sm, .container-xl
 {
-  max-width:1300px;
-} */
+  max-width:1200px;
+}
 
 .jumbotron-container{
   margin-top:-10px;
@@ -124,7 +128,7 @@ p{
 .row{
   margin-left:0;
   margin-right:0;
-
+  margin-top:-20px;
 }
 
 .display-4
@@ -169,8 +173,8 @@ p{
 
 .index-title a
 {
-  font-size:18px;
-  color:#000000 !important;
+  font-size:22px;
+  color:#514643 !important;
   text-align:center;
   font-weight:600;
   
@@ -178,7 +182,7 @@ p{
 
 .index-title a:hover
 {
-  font-size:18px;
+  font-size:22px;
   color:#e65c00 !important;
   text-decoration:none;
   text-align:center;
@@ -240,19 +244,57 @@ a:hover{
   border: 0;
 }
 
-.card-text {
+.card-text1 {
   text-decoration:none;
-  text-align:center;
-  font-size:1.4rem;
+  text-align:left;
+  font-size:16px;
   color:#000000;
+  padding-top:100px !important;
+  font-weight:500;
 }
 
-.card-text:hover {
-  text-decoration:none;
-  text-align:center;
-  font-size:1.4rem;
-  color:#ff6600;
+.speedyimage
+{
+  margin-top:-80px;
 }
+
+.card-text2 {
+  text-decoration:none;
+  text-align:left;
+  font-size:16px;
+  color:#000000;
+  padding-top:70px !important;
+  font-weight:500;
+}
+
+.creamimage
+{
+  margin-top:-70px;
+}
+
+.card-text3 {
+  text-decoration:none;
+  text-align:left;
+  font-size:16px;
+  color:#000000;
+  padding-top:30px;
+  font-weight:500;
+}
+
+/* .block1
+{
+  background-color:#DC7633;
+}
+
+.block2
+{
+  background-color:#E59866;
+}
+
+.block3
+{
+  background-color: #EDBB99;
+} */
 
 .png-shadow {
   -webkit-filter: drop-shadow(0 .5rem 1rem rgba(0,0,0,.5));
@@ -301,6 +343,13 @@ a:hover{
 }
 
 
-/* Modal Image
-  -------------------------------------------------- */
+.screen-image
+{
+  cursor: pointer;
+}
+
+.modal-content
+{
+  width:750px !important;
+}
 
